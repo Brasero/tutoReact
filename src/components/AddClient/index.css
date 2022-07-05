@@ -1,0 +1,28 @@
+.formContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    background-color: var(--color-primary);
+    transition: var(--transition);
+}
+
+.formContainer > input {
+    height: 2.5rem;
+    aspect-ratio: 16/9;
+}
+
+.formContainer > button{
+    height: 2.5rem;
+    aspect-ratio: 16/9;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
+
+.dark > button {
+    color: var(--color-dark-primary);
+    background-color: var(--color-dark-secondary);
+}

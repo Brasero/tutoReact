@@ -1,0 +1,40 @@
+.listContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 7px 10px;
+    background-color: var(--color-secondary);
+    gap: 7px;
+    transition: var(--transition);
+}
+
+.listContainer > li{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
+.listContainer > li > button{
+    width: 1.5rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background-color: #c33d3d;
+    color: var(--color-secondary);
+
+}
+
+ul.dark{
+    background-color: var(--color-dark-secondary);
+    color: var(--color-dark-primary);
+}
+
+.dark > li {
+    color: var(--color-dark-primary);
+}

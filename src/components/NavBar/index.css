@@ -1,0 +1,16 @@
+.container{
+    color: var(--color-secondary);
+    text-align: center;
+    width: 100%;
+    background-color: var(--color-primary);
+    padding-top: 0.75rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    transition: var(--transition);
+  }
+
+.dark{
+    color: var(--color-dark-secondary);
+    background-color: var(--color-dark-primary);
+}
